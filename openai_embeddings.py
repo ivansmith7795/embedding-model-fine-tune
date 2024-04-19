@@ -15,7 +15,7 @@ import numpy as np
 TRAIN_DATASET_FPATH = 'train_dataset.json'
 VAL_DATASET_FPATH = 'val_dataset.json'
 
-openai.api_key = "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"
+openai.api_key = "KEY"
 
 with open(TRAIN_DATASET_FPATH, 'r+') as f:
     train_dataset = json.load(f)
