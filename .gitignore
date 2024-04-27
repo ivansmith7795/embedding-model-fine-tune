@@ -1,3 +1,5 @@
 model/
 save/
 data/
+training/
+validating/
