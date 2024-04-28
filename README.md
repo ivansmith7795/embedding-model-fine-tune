@@ -1,6 +1,6 @@
 # Overview #
 
-A pattern for fine-tuning an embedding model using synthetic Q&A pairs generated using Llama.
+A pattern for fine-tuning an embedding model for dense vector embeddings using synthetic Q&A pairs generated using Llama.
 
 Tuning a text embeddings model can enable your model to adapt to the embeddings to a specific domain or task. This can be useful if the pre-trained embeddings model is not well-suited to your specific needs. For example, you might fine-tune an embeddings model on a specific dataset of customer support tickets for your company. This could help a chatbot understand the different types of customer support issues your customers typically have, and be able to answer their questions more effectively. Without tuning, the model doesn't know the specifics of your customer support tickets or the solutions to specific problems for your product.
 
@@ -9,9 +9,6 @@ Fine-tuned embedding models are well documented for outperforming their pretrain
 
 
 # Architecture #
-
-
-## Solution Architecture ##
 
 ![Scheme](__docs/images/finetune.png)
 
