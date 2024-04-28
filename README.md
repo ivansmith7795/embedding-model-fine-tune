@@ -241,7 +241,7 @@ Taking a look at how our simple BAAI/bge-small-en and more advanced FAE (compose
 
 If we look at both hit-rate and mean reciprical rank for our simple fine-tuned embedding model versus the base pretrained model and the text-embedding-ada-002, we can see the model has improved:
 
-![Scheme](__docs/images/tuned_results.png)
+![Scheme](__docs/images/tune_results.png)
 
 These models can be further improved by creating additional ground-truths (either synthetically or through manual curation) but more importantly, can be hosted on cost effective hardware without the per token costs associated with using a closed source embedding model.
 
