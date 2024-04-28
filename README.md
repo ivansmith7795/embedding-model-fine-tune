@@ -90,7 +90,7 @@ finetune_engine.finetune()
 
 Once tuned, we'll end up with a linear adapter that can be used in conjunction with a pretrained model to produce our domain adapted embeddings. 
 
-The above is a basic example using a small, tunable opensource embedding model which may not yield the best results for your use case. For more advanced use cases where better performance is required, the model can be further improved by leveraging a trained ensemble which this repo also includes in the composed_fine_tune.py example:
+The above is a basic example using a small, tunable opensource embedding model which may not yield the best results for your use case. For more advanced use cases where better performance is required, the model can be further improved by leveraging a trained ensemble which this repo also includes in the composed_fine_tune.py. In the below example, we tune the BAAI/bge-base-en-v1.5 pretrained embedding model and train it using embeddings previously applied to our training data from a closed source model:
 
 
 ```python
